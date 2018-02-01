@@ -1,0 +1,51 @@
+nav{
+    float: left;
+    width: 22%;
+    height: 100%;
+    clear: both;
+}
+
+body{
+background-color: lightblue;
+margin:0 auto;
+width:100%;
+
+}
+div{
+    float: right;
+    /* padding: 10px; */
+    background-color: white;
+    border: solid 1px #ccc;
+
+    width: 71%
+    
+    
+    }
+#float {
+    float: right;
+    border-style: solid;
+    width: 64%;
+
+}
+footer{
+    background-color: grey;
+    padding: 15px;
+    clear: both;
+
+}
+
+
+
+
+
+@media sreen and (min-width:600px){
+    nav { 
+        float: left;
+        width: 25%;
+    }
+    
+    section{
+        margin-left: 25%;
+
+    }
+}

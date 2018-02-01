@@ -1,0 +1,118 @@
+body{
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.flexwrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+    
+}
+
+.flexItems{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    
+    
+    
+}
+
+main{
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    flex: 1;
+}
+.foco{
+    background-color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.videosguia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ultimas {
+    flex: 2;
+    align-self: flex-start;
+}
+.agenda {
+    flex: 2;
+}
+.links{
+    flex: 1;
+}
+
+header{
+    flex:1;
+    min-height: 10rem;
+    background-image: url('http://www.uma.pt/portal/imagens/UMaBanner25.jpg');
+    background-size: cover;
+
+}
+
+nav{
+    background-color: steelblue;
+    font-family: 'oswald', sans-serif;
+    font-size: 1rem;
+    min-height: 0.75rem;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.ListItem,
+.LastItem{
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+}
+.ListItem{
+    margin-right: 1rem;
+}
+footer{
+    background-color: grey;
+    color: white;
+    font-size: 0.75rem;
+    min-height: 0.75rem;
+    justify-content: space-around;
+    padding: 0 1rem;
+}
+.foco_content{
+    display: flex;
+    flex-flow: row wrap;
+}
+.imagem_foco{
+    display: flex;
+    width: 33%;
+    height: 80px;
+    background-color: steelblue;
+    margin: 10px;
+    align-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.text{
+    flex: 1 1 100%;    
+    font-size:75%;
+   
+    text-align: center;
+    width: 40px;
+
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UMa CAntina</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+          crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\Celex\Google Drive\School\TESP\web\ficha11\umacantina.css">
+</head>
+
+<body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light px-0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1>
+                    <span class="cor-principal">UMa</span> Cantina </h1>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">Acerca</a>
+                </li>
+                <li class="divider py-2 d-none d-md-block cor-principal">/</li>
+                <li class="nav-item pr-3">
+                    <a href="contact.html" class="nav-link">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-danger" data-toggle="modal"
+                            data-target="#reservationmodal">
+                        Reservas
+                    </button>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+</header>
+<section>
+    <div class="container pb-5">
+     <div class="d-flex justify-content-center">
+        <img  src="C:\Users\Celex\Google Drive\School\TESP\web\ficha11\images\lead_960.jpg"/>
+     </div>
+        <div class="row">
+            <div class="col-2"><h1>Great food, great people, good times </h1></div>
+            <div class="col-1"></div>
+            <div class="col-9">aLorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores at atque autem blanditiis cum dicta dolorem ducimus est, ex, explicabo fugiat hic incidunt ipsa iste magnam minus nihil nisi nostrum numquam praesentium quaerat quasi quis recusandae rem rerum sed ut vel veritatis vitae voluptas voluptates voluptatibus, voluptatum. Ad architecto assumenda corporis delectus distinctio dolore doloribus eos ex exercitationem laboriosam libero nam nobis perferendis praesentium quam quasi quis quod quos, repellendus sapiente similique unde, veniam voluptatum? Ad dignissimos dolore doloribus enim, eum illo illum incidunt ipsa itaque natus nihil omnis quibusdam, similique unde voluptatem? Aliquam, at aut mollitia provident repudiandae sapiente. Adipisci alias aliquam aliquid at consequuntur corporis cupiditate dicta dignissimos dolore eos esse facere facilis harum hic illo ipsum iste molestias, mollitia neque nihil non nostrum nulla numquam obcaecati odit officia perferendis placeat possimus provident quasi quis quisquam saepe sapiente sit ut voluptate voluptatum! Architecto blanditiis dolor eaque esse laboriosam officia quis recusandae rerum ut? Accusamus ad, dolorem doloribus, est expedita facilis hic id ipsa laborum maxime natus, quasi reiciendis sequi. Culpa enim recusandae rem similique vero. Delectus doloremque illum officiis provident quam voluptatem voluptatibus. Blanditiis consectetur explicabo fugiat in itaque, nostrum optio tempora ullam unde voluptatibus? A aliquam atque culpa harum, molestiae nam repellendus rerum soluta. Consequuntur dolore eaque et eum exercitationem facere illo incidunt inventore, natus praesentium quaerat quod repellat repellendus tempore velit vitae voluptates! Accusantium aliquam architecto assumenda beatae deleniti deserunt dolore dolores error eum hic in ipsam laudantium maxime minus molestias nam nulla omnis provident, quae quis quisquam quo quod ratione sint, ullam velit, veritatis! Dolorum ex minima placeat ratione voluptates? Alias aspernatur at deserunt dicta dolore doloribus dolorum eum excepturi, explicabo hic illum iste iure labore natus non nostrum nulla odio odit optio quae quam ratione similique soluta. Accusantium autem blanditiis consectetur cum cupiditate deserunt doloremque ea earum enim et, eum eveniet id inventore iure magnam nemo nihil nisi nobis non odit perferendis qui quis quos reprehenderit sed similique sint sit soluta velit voluptas. Autem blanditiis doloremque eius eveniet ex exercitationem ipsum nobis omnis quod, voluptas! Accusantium animi atque aut, dicta ea earum fuga impedit, laudantium modi, natus officia perferendis quia quis repellat repellendus rerum sed tempore totam vitae voluptatum. Alias commodi dolore ducimus eaque incidunt iusto labore quam reiciendis vel voluptate! Architecto beatae commodi cupiditate dicta distinctio ducimus et eum exercitati

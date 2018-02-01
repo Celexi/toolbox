@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+<span>Lista de utilizadores:</span>
+<ul id="users"></ul>
+<script> $(document).ready(function () {
+    var list = '';
+    $.get('https://reqres.in/api/users', function (response) {
+        $.each(response.data, function (index, user) {
+            list += `<li>${user.first_name}</li>`;
+        });
+        $('#users').html(list);
+    });
+}); </script>
+</body>
+</html>

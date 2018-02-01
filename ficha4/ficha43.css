@@ -1,0 +1,28 @@
+
+body{
+    display: flex;
+    /* justify-content: flex-end; */
+        min-height: 100vh;
+}
+
+nav{
+    width: 200px;
+}
+
+.flex-column{
+        flex: 1;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+
+}
+.flex-column div{
+    margin-bottom:20px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+}

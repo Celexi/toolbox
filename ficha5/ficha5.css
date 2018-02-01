@@ -1,0 +1,18 @@
+.flex-container{
+    display: flex;
+    background-color: yellow;
+    align-items: stretch;
+    height: 100vh;
+    
+}
+
+.flex-item{
+    background-color: white;
+    border-color: black;
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    
+    
+
+}
